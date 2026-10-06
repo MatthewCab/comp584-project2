@@ -55,11 +55,26 @@ div img {
 	background-color: #FFFCE6;
 }
 
+.col-3 {
+	background-color: #584e00;
+}
+
+.col-4 {
+	background-color: #b3ab6f;
+}
+
+.col-5 {
+	background-color: #008a7e;
+}
+
 /* Tablet Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 	
   .col-1,
-  .col-2 {
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5 {
 		flex: 0 0 44%;
 	}
   
@@ -80,6 +95,18 @@ div img {
   
 	.col-2 {
 		flex: 0 0 44%;
+	}
+
+	.col-3 {
+		flex: 0 0 68%;
+	}
+
+	.col-4 {
+		flex: 0 0 92%;
+	}
+
+	.col-5 {
+		flex: 0 0 12%;
 	}
 
 }
